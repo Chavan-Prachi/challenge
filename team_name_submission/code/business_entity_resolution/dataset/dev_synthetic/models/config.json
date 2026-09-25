@@ -1,0 +1,21 @@
+{
+  "threshold": 0.05,
+  "feature_names": [
+    "name_jaccard",
+    "name_core_jaccard",
+    "name_levenshtein_ratio",
+    "name_token_sort_ratio",
+    "name_partial_ratio",
+    "name_prefix4_match",
+    "name_phonetic_match",
+    "name_len_ratio",
+    "addr_jaccard",
+    "addr_levenshtein_ratio",
+    "addr_token_overlap_count",
+    "addr_len_ratio",
+    "country_match"
+  ],
+  "max_candidates": 50,
+  "validation_macro_f0.5": 1.0,
+  "blocking_recall": 1.0
+}
